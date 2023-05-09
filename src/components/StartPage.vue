@@ -65,6 +65,7 @@
   right: 0;
   margin: auto;
 }
+
 .emergency-container {
   background-color: black;
   padding: 30px;
@@ -85,15 +86,15 @@
 .heading {
   background-color: grey;
   border: 2px solid grey;
-  padding: 60px;
+  padding: 70px;
   position: fixed;
-  top: 10px;
+  top: 0px;
   left: 0px;
-  width: 250%;
+  width: 200%;
   display: flex;
-  transform: translateX(-50%);
   background-image: url('../assets/stockholm.png');
-  transform: skewY(10deg);
+  transform: skewY(-6deg);
+  transform-origin: left;
 }
 </style>
 <script>
